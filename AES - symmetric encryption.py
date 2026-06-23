@@ -11,5 +11,5 @@ print(base64.b64encode(encrypted).decode())                    #encodes encrypte
 
 cipher2 = AES.new(key, AES.MODE_EAX, nonce=cipher.nonce)       #creates a new AES cipher object for decryption using the same key and nonce
 decrypted = cipher2.decrypt(encrypted)                         #decrypts the encrypted message using the same key
-print("\nDecrypted Message:")
+print("Decrypted Message:")
 print(decrypted.decode())                                      #decodes the decrypted bytes back into a string and prints it
