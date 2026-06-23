@@ -11,3 +11,15 @@ It uses 2 keys:
 
 ## [SHA](SHA.py) - hashing algorithm
 it has no decryption key. It's mainly used for passwords, digital signatures
+
+## Output
+### AES
+![AES](output/AES_output.png)
+
+### RSA
+![RSA](output/RSA_output.png)
+
+### SHA
+![SHA](output/SHA_output.png)
+
+
