@@ -3,9 +3,8 @@ Objective: Implement popular cryptography algorithms like AES, RSA, or SHA to un
 
 AES - symmetric encryption algorithm
 It uses the same key for encryption and decryption
-
-# code: AES.py
-# output: AES output.png
+- code: AES.py
+- output: AES output.png
 
 RSA - asymmetric encryption algorithm
 It uses 2 keys:
